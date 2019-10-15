@@ -20,5 +20,8 @@
   "homepage": "https://github.com/RSP531/tutorial-pt-2#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "pm2": "^4.1.1"
   }
 }
