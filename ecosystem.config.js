@@ -6,11 +6,11 @@ module.exports = {
     deploy: {
         production: {
         user: 'ubuntu',
-        host: 'ec2-52-209-166-225.eu-west-1.compute.amazonaws.com',
-        key: '~/.ssh/tutorial-2.pem',
+        host: 'ec2-18-188-224-244.us-east-2.compute.amazonaws.com',
+        key: '~/.ssh/robTest.pem',
         ref: 'origin/master',
-        repo: 'git@github.com:roberttod/tutorial-pt-2.git',
-        path: '/home/ubuntu/tutorial-2',
+        repo: 'git@github.com:roberttod/tutorial-pt-2.git', 
+        path: '/home/ubuntu/tutorial-pt-2',
         'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
         }
     }
